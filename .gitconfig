@@ -1,0 +1,5 @@
+[user]
+	email = masgui@gmail.com
+	name = Guillaume Massé
+[core]
+	excludesfile = ~/.global_gitignore

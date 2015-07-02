@@ -1,0 +1,13 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"LESS",
+		"Nix",
+		"Package Control",
+		"Solarized Toggle",
+		"SublimeSBT"
+	]
+}
