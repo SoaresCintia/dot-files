@@ -5,5 +5,5 @@ export PATH="/home/gui/bin:/var/setuid-wrappers:/home/gui/.nix-profile/bin:/home
 source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
 export EDITOR='sublime3 -n -w'
-export SBT_OPTS="-Xms512M -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
+export SBT_OPTS="-Xms512M -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled"
 

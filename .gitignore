@@ -8,6 +8,8 @@ ScalaKata2/
 .local/
 .mozilla
 .mplayer
+node_modules/
+nixpkgs
 .nix*
 .npm/
 .oh-my-zsh/
