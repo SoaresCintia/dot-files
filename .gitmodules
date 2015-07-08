@@ -1,3 +1,30 @@
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "scala/scala"]
+	path = scala/scala
+	url = git@github.com:scala/scala.git
+[submodule "scala/pickling"]
+	path = scala/pickling
+	url = git@github.com:scala/pickling.git
+[submodule "MasseGuillaume/ScalaKata2"]
+	path = MasseGuillaume/ScalaKata2
+	url = git@github.com:MasseGuillaume/ScalaKata2.git
+[submodule "MasseGuillaume/ScalaKata"]
+	path = MasseGuillaume/ScalaKata
+	url = git@github.com:MasseGuillaume/ScalaKata.git
+[submodule "NixOS/nixpkgs"]
+	path = NixOS/nixpkgs
+	url = git@github.com:MasseGuillaume/nixpkgs.git
+[submodule "scalameta/scalameta"]
+	path = scalameta/scalameta
+	url = git@github.com:MasseGuillaume/scalameta.git
+[submodule "scalameta/example"]
+	path = scalameta/example
+	url = git@github.com:MasseGuillaume/scalameta-example.git
+[submodule "scalameta/scalahost"]
+	path = scalameta/scalahost
+	url = git@github.com:MasseGuillaume/scalameta-scalahost.git
+[submodule "scalameta/interpreter"]
+	path = scalameta/interpreter
+	url = git@github.com:MasseGuillaume/scalameta-interpreter.git
