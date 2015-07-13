@@ -3,6 +3,7 @@
   "caret_style": "solid",
   "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
   "folder_exclude_patterns":["target", ".git"],
+  "file_exclude_patterns": [".git"],
   "font_size": 12,
   "gutter": false,
   "margin": 10,
