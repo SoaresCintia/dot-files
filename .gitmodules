@@ -28,3 +28,15 @@
 [submodule "scalameta/interpreter"]
 	path = scalameta/interpreter
 	url = git@github.com:MasseGuillaume/scalameta-interpreter.git
+[submodule "metadoc/metadoc"]
+	path = metadoc/metadoc
+	url = git@github.com:metadoc/metadoc.git
+[submodule "metadoc/cats"]
+	path = metadoc/cats
+	url = git@github.com:metadoc/cats.git
+[submodule "metadoc/poms"]
+	path = metadoc/poms
+	url = git@github.com:metadoc/poms.git
+[submodule "metadoc/dbuild"]
+	path = metadoc/dbuild
+	url = git@github.com:metadoc/dbuild.git

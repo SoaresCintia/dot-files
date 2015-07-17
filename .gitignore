@@ -3,6 +3,7 @@ MasseGuillaume/
 NixOS/
 scala/
 scalameta/
+metadoc/
 
 .cache/
 .compose-cache/
