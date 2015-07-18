@@ -9,7 +9,8 @@ SoaresCintia/
 .local/
 .mozilla
 .mplayer
-.nix*
+.nix-defexpr/
+.nix-profile
 .npm/
 .oh-my-zsh/
 .pki
