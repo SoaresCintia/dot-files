@@ -1,12 +1,15 @@
 Downloads/
 SoaresCintia/
+NixOS/
 
 .cache/
 .compose-cache/
+.config/configstore/
 .dbus/
 .dmenu_cache
 .ivy2/
 .local/
+.lesshst
 .mozilla
 .mplayer
 .nix-defexpr/

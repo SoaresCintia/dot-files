@@ -4,3 +4,6 @@
 [submodule "SoaresCintia/HaHaHa"]
 	path = SoaresCintia/HaHaHa
 	url = git@github.com:SoaresCintia/HaHaHa.git
+[submodule "NixOS/nixpkgs"]
+	path = NixOS/nixpkgs
+	url = git@github.com:NixOS/nixpkgs.git

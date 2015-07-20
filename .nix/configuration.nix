@@ -42,22 +42,26 @@
     dmenu
     docker
     git
-    #idea.idea-community
+    idea.idea-community
+    kbdlight
     mercurial
     mplayer
     nix
     nixops
     nodejs
-    #oraclejdk8
+    oraclejdk7
     rxvt_unicode
-    #sbt
-    #scala_2_11
+    sbt
+    scala_2_11
+    scrot
     sublime3
+    sxiv
     tig
     tree
     unzip
     wpa_supplicant_gui
     xclip
+    xlibs.xbacklight
   ];
 
   services.openssh.enable = true;
@@ -120,13 +124,13 @@
       enablePepperFlash = true;
       enablePepperPDF = true;
     };
-    # oraclejdk8 = {
-    #   installjce = true;
-    # };
-    # packageOverrides = pkgs : rec {
-    #   jdk = pkgs.oraclejdk8;
-    #   jre = pkgs.oraclejdk8.jre;
-    # };
+    oraclejdk7 = {
+      installjce = true;
+    };
+    packageOverrides = pkgs : rec {
+      jdk = pkgs.oraclejdk7;
+      jre = pkgs.oraclejdk7.jre;
+    };
   };
 
   services.upower.enable = true;
