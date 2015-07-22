@@ -51,7 +51,7 @@ import XMonad.Layout.Tabbed
 myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
   [
       -- Prompt
-      ((modMask, xK_p), spawn "dmenu") 
+      ((modMask, xK_p), spawn "dmenu_run") 
       -- Terminal
     , ((modMask .|. shiftMask, xK_Return ), spawn $ XMonad.terminal conf)
     -- kill selected window

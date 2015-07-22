@@ -38,6 +38,7 @@
     acpi
     ansible
     atom
+    cacert
     chromiumDev
     dmenu
     docker

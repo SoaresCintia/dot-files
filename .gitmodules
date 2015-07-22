@@ -7,3 +7,6 @@
 [submodule "NixOS/nixpkgs"]
 	path = NixOS/nixpkgs
 	url = git@github.com:NixOS/nixpkgs.git
+[submodule ".wifi"]
+	path = .wifi
+	url = git@bitbucket.org:masseguillaume/wifi.git
