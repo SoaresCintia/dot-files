@@ -1,7 +1,10 @@
 { config, pkgs, lib, ... }:
+let 
+  latex = (pkgs.texLiveAggregationFun { paths = [ pkgs.texLive pkgs.texLiveExtra pkgs.texLiveBeamer ]; });
+in
 {
   imports =
-    [ # Include the results of the hardware scan.
+    [
       ./hardware-configuration.nix
     ];
 
@@ -45,6 +48,7 @@
     git
     idea.idea-community
     kbdlight
+    latex
     mercurial
     mplayer
     nix
